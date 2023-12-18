@@ -14,7 +14,9 @@
       "command": "python main.py",
       "runAtStart": true,
       "restartOn": {
-        "files": ["main.py"],
+        "files": [
+          "main.py"
+        ],
         "branch": false,
         "resume": false
       }
@@ -23,10 +25,16 @@
       "name": "Installing Dependencies",
       "command": "pip install -r requirements.txt",
       "restartOn": {
-        "files": ["requirements.txt"],
+        "files": [
+          "requirements.txt"
+        ],
         "branch": false,
         "resume": false
       }
+    },
+    "npm install eslist": {
+      "name": "gg",
+      "command": "npm install eslist"
     }
   }
 }
