@@ -3,4 +3,4 @@ def add_numbers(e, j):
     print(result)
 
 
-add_numbers(34, "35")
+add_numbers(34, 35)
